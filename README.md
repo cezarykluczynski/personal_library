@@ -27,4 +27,4 @@ Start application:
 
 python manage.py runserver 8686
 
-Then navigate to [main page](http://www.localhost:8686/books/)
+Then navigate to [main page](http://www.localhost:8686/main/)

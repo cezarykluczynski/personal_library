@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from personal_library_app.views import books
+from personal_library_app.views import main
 
 urlpatterns = [
 	url(r'^admin/', include(admin.site.urls)),
-	url(r'books/', books.index),
+	url(r'main/', main.index),
 ]
