@@ -3,10 +3,10 @@ A learning project to familiarize myself with Python and React.
 ##Requirements
 Here is the setup used for develop. It would probably work with other versions too, but it was not tested.
 
-*Python 3.5
-*Django
-*psycopg2 (from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#psycopg))
-*PostgresSQL 9.4
+* Python 3.5
+* Django 1.8.6
+* psycopg2 (from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#psycopg))
+* PostgresSQL 9.4
 
 ##Installation
 
