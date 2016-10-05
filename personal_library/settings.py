@@ -37,6 +37,7 @@ INSTALLED_APPS = (
 	'django.contrib.sessions',
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
+	'rest_framework',
 	'personal_library_app'
 )
 
@@ -86,6 +87,15 @@ DATABASES = {
 	}
 }
 
+REST_FRAMEWORK = {
+	'DEFAULT_PERMISSION_CLASSES': [
+		'rest_framework.permissions.AllowAny'
+		# 'django.contrib.auth',
+		# 'rest_framework.permissions.IsAdminUser',
+		# 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+	],
+	'PAGE_SIZE': 10
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/

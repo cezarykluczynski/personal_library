@@ -10,6 +10,9 @@ Here is the setup used for develop. It would probably work with other versions t
 
 ##Installation
 
+pip install django
+pip install djangorestframework
+
 Create PostgreSQL user:
 
 ```sh
@@ -22,6 +25,10 @@ Migrate database schemas:
 ```sh
 python manage.py migrate
 ```
+
+Install npm dependencies:
+
+cd personal_library_app/static && npm install
 
 Start application:
 
