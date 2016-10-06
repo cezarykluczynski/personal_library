@@ -11,9 +11,13 @@
     "prod": "brunch build --production"
   },
   "dependencies": {
+    "copycat-brunch": "^1.1.0",
+    "less-brunch": "^2.7.1",
+    "ramda": "^0.22.1",
     "react": "~15.3.0",
     "react-dom": "~15.3.0",
-    "react-router": "^2.8.1"
+    "react-router": "^2.8.1",
+    "semantic-ui-css": "^2.2.4"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",

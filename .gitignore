@@ -1,5 +1,3 @@
 .idea
 __pycache__/
 *.py[cod]
-personal_library_app/static/node_modules
-personal_library_app/static/public
